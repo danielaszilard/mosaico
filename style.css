@@ -362,24 +362,15 @@ header nav a:hover {
 }
 
 #organizacao li a:link {
-	color: var(--link-hover-color);
+	color: var(--dark-hover-color);
 }
 
 #organizacao li a:hover {
-	color: var(--dark-font-color);
+	color: var(--link-font-color);
 }
 
 #organizacao li a:visited {
 	color: var(--dark-font-color);
-}
-
-#organizacao ul li:hover > ul, #organizacao ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  background: var(--ld-bkg-color);
-  border-radius: 0.05em;
-  font-size: 1.1em;
-	padding: 1em;
 }
 
 #organizacao img {
@@ -418,14 +409,39 @@ header nav a:hover {
 }
 
 #resumos hr {
+	margin: 2em 0 2em 0;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--dark-font-color), rgba(0, 0, 0, 0));
 }
 
 #resumos .sub-title {
-	margin: 2em 4em;
+	margin: 0.4em 4rem;
 	text-align: left;
-	font-size: 1.8em;
+	font-size: 1.3em;
 	color: var(--title-font-color);
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#resumos .autor {
+	margin: 0.4em 4rem;
+	text-align: left;
+	font-size: 1.2em;
+	color: var(--title-font-color);
+}
+
+#resumos .autores {
+	margin: 0.4em 4rem;
+	text-align: left;
+	font-size: 1em;
+	color: var(--title-font-color);
+}
+
+#resumos .resumo {
+	margin: 0.4em 4rem;
+	text-align: left;
+	font-size: 1em;
+	color: var(--title-font-color);
+	line-height: 150%;
 }
 
 #resumos .info a:link {
